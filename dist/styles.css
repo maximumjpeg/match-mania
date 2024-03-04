@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1, p {
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.app-wrapper {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.gallery-wrapper {
+  text-align: center;
+  text-align: -webkit-center;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+}
+
+.card {
+  flex-direction: row;
+  border-radius: 4vem;
+  font-size: xx-large;
+  border: 2px solid black;
+  margin: 2px;
+  width: fit-content;
+  padding: 2px;
+}
+
+.card:active {
+  box-shadow: 2px grey;
+}
+
+.card:hover {
+  background-color: grey;
+}
+
+.view {
+  text-align: center;
+  font-weight: bolder;
+  font-size: xx-large;
+  height: 4vw;
+}
