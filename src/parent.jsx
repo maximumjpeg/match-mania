@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-// const katakana = require('../dist/katakana.js');
-import Gallery from '../gallery.jsx';
-import View from '../view.jsx';
-import Landing from '../landing.jsx';
-import NavBar from '../navbar.jsx';
+import Gallery from './gallery.jsx';
+import View from './view.jsx';
+import Landing from './landing.jsx';
+import NavBar from './navbar.jsx';
 
 const Parent = () => {
   const [loggedIn, setLoggedIn] = useState('false');
