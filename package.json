@@ -24,6 +24,6 @@
     "start": "webpack --mode=development",
     "build": "webpack --mode=production",
     "dev": "webpack server --open",
-    "serve": "webpack --mode=production && nodemon ./server/server.js"
+    "serve": "webpack --mode=production && open http://localhost:3000; nodemon ./server/server.js"
   }
 }
