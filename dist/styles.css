@@ -21,6 +21,11 @@ button {
   text-align: center;
 }
 
+.navbar {
+  border: solid 1px;
+  border-radius: 4px;
+}
+
 .big-emoji {
   font-size: 15vh;
 }
