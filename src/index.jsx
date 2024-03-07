@@ -1,14 +1,20 @@
-// Bring React in to build a component.
-import React from "react"
-// Bring reactDOM in to mount component to the dom.
-import { createRoot } from 'react-dom/client'
-import Parent from './parent.jsx'
-const root = createRoot(document.getElementById("root"))
+import React from "react";
+import { createRoot } from 'react-dom/client';
+import Root from './routes/root.jsx';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-const App = () => {
-  return <div>
-    <Parent />
-  </div>
-}
+const root = createRoot(document.getElementById("root"));
 
-root.render(<App />);
+const router = createBrowserRouter([{
+  path: "/",
+  element: <Root />,
+},]);
+
+root.render(
+  <React.StrictMode>
+    <RouterProvider router={router} />
+  </React.StrictMode>
+);
+
+
+

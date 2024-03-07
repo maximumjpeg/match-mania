@@ -5,7 +5,7 @@ import View from '../view.jsx';
 import Landing from '../landing.jsx';
 import NavBar from '../navbar.jsx';
 
-const Parent = () => {
+const Root = () => {
   const [loggedIn, setLoggedIn] = useState('false');
   const [current, setCurrent] = useState('');
   if (loggedIn && loggedIn === true) {
@@ -22,5 +22,5 @@ const Parent = () => {
   }
 };
 
-export default Parent
+export default Root
 
