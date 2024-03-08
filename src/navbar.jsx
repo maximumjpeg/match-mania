@@ -5,9 +5,9 @@ const NavBar = (props) => {
     {/* <a>Home</a>
     <a>Gallery</a>
     <a>Game Mode</a> */}
-    <p>Home</p>
-    <p>Gallery</p>
-    <p>Game Mode</p>
+    <p><a href="home">Home</a></p>
+    <p><a href="gallery">Gallery</a></p>
+    <p><a href="game-mode">Game Mode</a></p>
   </div>
 }
 

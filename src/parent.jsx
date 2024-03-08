@@ -12,7 +12,7 @@ const Parent = () => {
     <NavBar />
     <h1>Match Mania</h1>
     <View current={current} />
-    <Gallery setCurrent={setCurrent} />
+    <Gallery setCurrent={setCurrent} current={current} />
   </div>
   } else {
     return <div className="app-wrapper">
