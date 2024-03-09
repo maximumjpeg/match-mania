@@ -8,7 +8,8 @@
     "passport-local": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "6.22.2"
+    "react-router-dom": "6.22.2",
+    "zustand": "^4.5.2"
   },
   "devDependencies": {
     "@babel/core": "^7.23.9",
@@ -26,6 +27,6 @@
     "start": "webpack --mode=development",
     "build": "webpack --mode=production",
     "dev": "webpack server --open",
-    "serve": "webpack --mode=production && open http://localhost:3000; nodemon ./server/server.js"
+    "serve": "webpack --mode=development && open http://localhost:3000; nodemon ./server/server.js"
   }
 }

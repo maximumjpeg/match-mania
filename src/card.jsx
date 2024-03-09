@@ -1,7 +1,11 @@
 import React from 'react';
+import { useUserStore } from './store.js';
 
 const Card = (props) => {
-  return <div className="card" onClick={() => props.setCurrent(props.romaji)}>
+  // ZUSTAND
+  const current = useUserStore((state) => state.current);
+  const setCurrent = useUserStore((state) => state.setCurrent);
+  return <div className="card" onClick={() => setCurrent(props.romaji)}>
     {props.japanese}
   </div>
 }

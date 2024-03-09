@@ -8,6 +8,12 @@ import Layout from './layout.jsx';
 import Gallery from './gallery.jsx';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 const Router = BrowserRouter;
+import { create } from 'zustand';
+
+const useStore = create((set) => ({
+  current: {},
+  setCurrent: (newKana) => set({current: newKana}),
+}));
 // import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // const root = createRoot(document.getElementById("root"));
