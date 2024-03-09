@@ -1,6 +1,9 @@
 import { create } from 'zustand';
 
-export const useUserStore = create((set) => ({
-  current: {},
+const useUserStore = create((set) => ({
+  current: '',
+  count: 7,
   setCurrent: (newKana) => set({current: newKana}),
 }));
+
+export default useUserStore;

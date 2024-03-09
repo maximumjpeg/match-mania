@@ -16,7 +16,7 @@ class Kana {
 const Gallery = (props) => {
   return <div className="gallery-wrapper">
     {/* <View current={props.current} /> */}
-    <div className="gallery">{kana.katakana.map((character) => <Card character={character} japanese={Object.keys(character)[0]} romaji={Object.values(character)[0]} />)}</div>
+    <div className="gallery">{kana.katakana.map((character) => <Card key={Object.keys(character)[0]} character={character} japanese={Object.keys(character)[0]} romaji={Object.values(character)[0]} />)}</div>
   </div>
 }
 
