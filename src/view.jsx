@@ -1,11 +1,11 @@
 import React from 'react';
-import { useUserStore } from './store.js'
+import useUserStore from './store.js';
 
 const View = () => {
-// ZUSTAND
-const current = useUserStore((state) => state.current);
+  // Zustand state
+  const currentKana = useUserStore((state) => state.currentKana);
   return <div className="view">
-    {current}
+    {currentKana}
   </div>
 }
 
