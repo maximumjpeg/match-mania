@@ -1,8 +1,8 @@
 import React from 'react';
 
 const GameCard = (props) => {
-  return <div>
-    {props.japanese ? props.japanase : props.romaji}
+  return <div className="tile">
+    {props.japanese ? props.japanese : props.romaji}
   </div>
 }
 

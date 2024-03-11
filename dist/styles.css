@@ -76,14 +76,26 @@ button {
 
 .game-wrapper {
   display: flex;
+  flex-direction: column;
 }
 
 .tiles-wrapper {
+  display: flex;
   flex-direction: row;
+}
+
+.left-tiles {
+  width: 50%;
+}
+
+.right-tiles {
+  width: 50%;
 }
 
 .tile {
   width: 150px;
   height: 56px;
   text-align: center;
+  border: solid black 2px;
+  border-radius: 4px;
 }

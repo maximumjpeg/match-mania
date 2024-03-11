@@ -6,7 +6,7 @@ import { hiragana, katakana } from '../dist/kana.js';
 const Game = () => {
 const deck = [];
 for (var i = 0; i < 5; i++) {
-  deck.push(katakana[Math.floor(Math.random() * 10.0)]);
+  deck.push(katakana[(Math.floor(Math.random() * 2.0)) + i]);
 };
 console.log(deck);
   return <div className="game-wrapper">
