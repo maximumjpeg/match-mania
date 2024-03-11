@@ -15,9 +15,9 @@ const Layout = () => {
           <li>
             <Link to="/hiragana">Hiragana</Link>
           </li>
-          {/* <li>
-            <Link to="/game-mode">Game mode</Link>
-          </li> */}
+          <li>
+            <Link to="/game">Game</Link>
+          </li>
         </ul>
       </nav>
 

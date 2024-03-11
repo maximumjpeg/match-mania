@@ -73,3 +73,17 @@ button {
   font-size: xx-large;
   color:crimson;
 }
+
+.game-wrapper {
+  display: flex;
+}
+
+.tiles-wrapper {
+  flex-direction: row;
+}
+
+.tile {
+  width: 150px;
+  height: 56px;
+  text-align: center;
+}

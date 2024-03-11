@@ -5,6 +5,7 @@ import { createRoot } from 'react-dom/client';
 // import ErrorPage from './error-page.jsx';
 import Home from './home.jsx';
 import Layout from './layout.jsx';
+import Game from './game.jsx';
 import Katakana from './katakana.jsx';
 import Hiragana from './hiragana.jsx';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -46,7 +47,7 @@ root.render(
         <Route index element={<Home />}></Route>
         <Route path="hiragana" element={<Hiragana />}></Route>
         <Route path="katakana" element={<Katakana />}></Route>
-        {/* <Route path="game-mode" element={<Game />}></Route> */}
+        <Route path="game" element={<Game />}></Route>
         {/* <Route path="*" element={<ErrorPage />}></Route> */}
       </Route>
     </Routes>

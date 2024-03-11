@@ -2,7 +2,7 @@ import React from 'react';
 
 const GameCard = (props) => {
   return <div>
-    {props.}
+    {props.japanese ? props.japanase : props.romaji}
   </div>
 }
 
