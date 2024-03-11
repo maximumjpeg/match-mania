@@ -6,7 +6,6 @@ body {
 
 }
 
-
 h1, p, h5 {
   color: black;
   font-weight: bolder;
@@ -68,4 +67,9 @@ button {
   font-weight: bolder;
   font-size: xx-large;
   height: 4vw;
+}
+
+.bold {
+  font-size: xx-large;
+  color:crimson;
 }
