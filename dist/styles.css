@@ -79,6 +79,14 @@ button {
   flex-direction: column;
 }
 
+.progress-bar-wrapper {
+  width: 100%;
+  /* min-height: 15%;
+  border: solid black 2px;
+  border-radius: 6px;
+  margin: 5px; */
+}
+
 .tiles-wrapper {
   display: flex;
   flex-direction: row;
@@ -96,6 +104,17 @@ button {
   width: 150px;
   height: 56px;
   text-align: center;
+  vertical-align: middle;
   border: solid black 2px;
   border-radius: 4px;
+  margin: 8px;
 }
+
+.tile:hover {
+  box-shadow: 0 0 8px red;
+}
+
+/* This might only work with HTML button elements */
+/* tile:active {
+  background-color: rgba(255, 0, 0, 0.738);
+} */

@@ -10,7 +10,10 @@ for (var i = 0; i < 5; i++) {
 };
 console.log(deck);
   return <div className="game-wrapper">
-    <div>Progress Bar</div>
+    <div className="progress-bar-wrapper">
+      <label>Matches</label>
+      <progress value={5 - deck.length} max={5}></progress>
+    </div>
     <div className="tiles-wrapper">
       <div className="left-tiles">{deck.map((card, index) => <GameCard japanese={Object.keys(card)[0]} />)}</div>
       <div className="right-tiles">{deck.map((card, index) => <GameCard romaji={Object.values(card)[0]} />)}</div>
