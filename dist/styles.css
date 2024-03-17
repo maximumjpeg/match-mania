@@ -54,6 +54,24 @@ button {
   padding: 2px;
 }
 
+.kanji-card {
+  flex-direction: row;
+  border-radius: 4vem;
+  font-size: xx-large;
+  border: 2px solid black;
+  margin: 2px;
+  width: fit-content;
+  padding: 2px;
+}
+
+.kanji-card:active {
+  box-shadow: 2px grey;
+}
+
+.kanji-card:hover {
+  background-color: grey;
+}
+
 .card:active {
   box-shadow: 2px grey;
 }
@@ -112,6 +130,11 @@ button {
 
 .tile:hover {
   box-shadow: 0 0 8px red;
+}
+
+.pie-chart {
+  max-width: 50%;
+  max-height: 50%;
 }
 
 /* This might only work with HTML button elements */

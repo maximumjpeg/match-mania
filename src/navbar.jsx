@@ -5,6 +5,7 @@ const NavBar = (props) => {
     <p><a href="home">Home</a></p>
     <p><a href="Hiragana">Hiragana</a></p>
     <p><a href="Katakana">Katakana</a></p>
+    <p><a href="Katakana">Kanji</a></p>
     {/* <p><a href="game-mode">Game Mode</a></p> */}
   </div>
 }

@@ -16,6 +16,9 @@ const Layout = () => {
             <Link to="/hiragana">Hiragana</Link>
           </li>
           <li>
+            <Link to="/kanji">Kanji</Link>
+          </li>
+          <li>
             <Link to="/game">Game</Link>
           </li>
         </ul>
