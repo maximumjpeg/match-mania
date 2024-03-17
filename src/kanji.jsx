@@ -6,7 +6,7 @@ import { kanji } from '../dist/kanji.js';
 
 const Kanji = (props) => {
   const { updateKanji } = useUserStore();
-  useEffect(() => { updateKanji('test') }, []);
+  useEffect(() => { updateKanji('') }, []);
   return <div className="kanji-gallery-wrapper">
     <KanjiView />
     <div className="kanji-gallery">
