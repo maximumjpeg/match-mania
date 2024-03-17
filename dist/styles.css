@@ -37,7 +37,20 @@ button {
   text-align: center;
   text-align: -webkit-center;
 }
+
+.kanji-gallery-wrapper {
+  text-align: center;
+  text-align: -webkit-center;
+}
+
 .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+}
+
+.kanji-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -52,6 +65,14 @@ button {
   margin: 2px;
   width: fit-content;
   padding: 2px;
+}
+
+.card:active {
+  box-shadow: 2px grey;
+}
+
+.card:hover {
+  background-color: grey;
 }
 
 .kanji-card {
@@ -69,14 +90,6 @@ button {
 }
 
 .kanji-card:hover {
-  background-color: grey;
-}
-
-.card:active {
-  box-shadow: 2px grey;
-}
-
-.card:hover {
   background-color: grey;
 }
 
