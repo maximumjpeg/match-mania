@@ -5,7 +5,7 @@ const Card = (props) => {
   // ZUSTAND
   const updateKana = useUserStore((state) => state.updateKana);
   // return <div className="card" onClick={() => console.log(props.romaji)}>
-  return <div className="card" onClick={() => {updateKana(props.romaji)}}>
+  return <div className="card" onClick={() => { updateKana(props.romaji) }}>
     {props.japanese}
   </div>
 }

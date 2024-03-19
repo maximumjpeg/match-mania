@@ -33,7 +33,7 @@ const kanji = [
   {'言います': 'to say, to speak (iimasu)'},
   {'行きます': 'to go (ikimasu)'},
   {'来ます': 'to come (kimasu)'},
-  {'時間': 'time (ji)'},
+  {'時間': 'time (jikan)'},
   {'分': 'minute (fun)'},
   {'半': 'half, thirty(minutes) (han)'},
   {'時': 'hour (ji)'},

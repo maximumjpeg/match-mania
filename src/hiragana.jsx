@@ -16,9 +16,9 @@ class Kana {
 
 const Hiragana = (props) => {
   const { updateKana } = useUserStore();
-  useEffect(() => {updateKana('')}, []);
+  useEffect(() => { updateKana('') }, []);
   return <div className="gallery-wrapper">
-  <View />
+    <View />
     <div className="gallery">{hiragana.map((character) => <Card key={Object.keys(character)[0]} character={character} japanese={Object.keys(character)[0]} romaji={Object.values(character)[0]} />)}</div>
   </div>
 }

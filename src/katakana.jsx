@@ -16,11 +16,11 @@ class Kana {
 
 const Katakana = (props) => {
   const { updateKana } = useUserStore();
-  useEffect(() => {updateKana('')}, []);
+  useEffect(() => { updateKana('') }, []);
   return <div className="gallery-wrapper">
     <View />
-      <div className="gallery">{katakana.map((character) => <Card key={Object.keys(character)[0]} character={character} japanese={Object.keys(character)[0]} romaji={Object.values(character)[0]} />)}</div>
-    </div>
+    <div className="gallery">{katakana.map((character) => <Card key={Object.keys(character)[0]} character={character} japanese={Object.keys(character)[0]} romaji={Object.values(character)[0]} />)}</div>
+  </div>
 }
 
 export default Katakana

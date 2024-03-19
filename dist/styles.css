@@ -2,11 +2,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#error-page {
+#error-page {}
 
-}
-
-h1, p, h5 {
+h1,
+p,
+h5 {
   color: black;
   font-weight: bolder;
   text-align: center;
@@ -102,7 +102,7 @@ button {
 
 .bold {
   font-size: xx-large;
-  color:crimson;
+  color: crimson;
 }
 
 .game-wrapper {

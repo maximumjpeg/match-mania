@@ -1,8 +1,9 @@
 import React from 'react';
 
 const GameCard = (props) => {
-  return <div className="tile">
-    {props.japanese ? props.japanese : props.romaji}
+  const userChoice = () => { };
+  return <div className="tile" onClick={() => (console.log(props.match))}>
+    {props.text}
   </div>
 }
 

@@ -5,7 +5,7 @@ import { kanji } from '../dist/kanji.js';
 import Game from './game.jsx';
 import PieChart from './pie-chart.jsx';
 
-const Home =(props) => {
+const Home = (props) => {
   const count = useUserStore((state) => state.count);
   return <div className="app-wrapper">
     <h1>UserDashboard</h1>
