@@ -6,7 +6,7 @@ import useUserStore from './store.js';
 
 const Game = () => {
   // ZUSTAND state
-  const { score, startGame, endGame, gameStart, gameEnd } = useUserStore();
+  const { score, startGame, endGame, gameStart, gameEnd, nextMatch, setNext, selected, updateSelected } = useUserStore();
   const deck = [];
   for (var i = 0; deck.length < 5; i++) {
     var rando = (Math.round(Math.random() * katakana.length));

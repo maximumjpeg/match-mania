@@ -8,6 +8,7 @@ const useUserStore = create((set) => ({
   gameStart: false,
   gameEnd: false,
   nextMatch: '',
+  selected: 0,
   // updateKana: (newKana) => set({ current: newKana }),
   // When we call 'set', if you need access to state, just argument it in!
   // It's not required if you're updating that state with only data from outside the store
@@ -15,7 +16,8 @@ const useUserStore = create((set) => ({
   updateKanji: (newKanji) => set((state) => ({ currentKanji: newKanji })),
   startGame: (gameState) => set((state) => ({ gameStart: gameState })),
   endGame: (gameState) => set((state) => ({ gameEnd: gameState })),
-  setNext: (needMatch) => set((state) => ({ nextMatch: needMatch }))
+  setNext: (needMatch) => set((state) => ({ nextMatch: needMatch })),
+  updateSelected: (amount) => set((state) => ({ selected: amount }))
   // updateKana: (newKana) => set({ current: newKana }),
 }));
 
