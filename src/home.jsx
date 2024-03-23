@@ -2,7 +2,6 @@ import React from 'react';
 import useUserStore from './store.js';
 import { hiragana, katakana } from '../dist/kana.js';
 import { kanji } from '../dist/kanji.js';
-import Game from './game.jsx';
 import PieChart from './pie-chart.jsx';
 
 const Home = (props) => {

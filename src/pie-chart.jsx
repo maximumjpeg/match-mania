@@ -6,9 +6,11 @@ import { kanji } from '../dist/kanji.js';
 
 ChartJS.register(ArcElement, Tooltip, Legend);
 
+const total = hiragana.length + katakana.length + kanji.length;
+
 
 export const data = {
-  labels: [`${hiragana.length} Hiragana`, `${katakana.length} Katakana`, `${kanji.length} Kanji`],
+  labels: [`${((hiragana.length) / total * 100).toFixed(2)}% Hiragana (${hiragana.length} cards)`, `${((katakana.length) / total * 100).toFixed(2)}% Katakana (${katakana.length} cards)`, `${((kanji.length) / total * 100).toFixed(2)}% Kanji (${kanji.length} cards)`],
   datasets: [
     {
       label: '# of study cards',
