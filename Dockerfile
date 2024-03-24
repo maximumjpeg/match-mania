@@ -15,7 +15,7 @@
 FROM postgres
 
 # Copy config.js into the container
-COPY config.js /usr/src/app/config.js
+# COPY config.js /usr/src/app/config.js
 
 # Expose PostgreSQL port
 EXPOSE 5432
