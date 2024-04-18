@@ -1,5 +1,5 @@
 # Match Mania
-japanese study app for kana, kanji, vocab and phrases
+Japanese study app for Kana, Kanji, vocab and phrases
 
 ### TO-DO:
 rename/recase components in src
