@@ -11,7 +11,7 @@ will need a .env and config.json configured with the appropriate variables added
 config.json is for the postgres user password
 .env should have pguser, pguserpassword, database, host, port
 
-# Run these commands in a terminal from the root directory of this repo
+### Run these commands in a terminal from the root directory of this repo
 
 
 install project dependencies with yarn
