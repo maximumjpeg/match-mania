@@ -6,10 +6,10 @@ rename/recase components in src
 make the gallery view a modular component that just takes in its current japanese study material instead of multiple galleries
 
 ### Running the app
-make sure Node 20.11.1 and Docker are installed on the machine running this app
+make sure Node 20.11.1+ and Docker are installed on the machine running this app
 will need a .env and config.json configured with the appropriate variables added
 config.json is for the postgres user password
-.env should have pguser, pguserpassword, database, host, port
+.env should have your pguser, pguserpassword, database, host, port
 
 ### Run these commands in a terminal from the root directory of this repo
 
