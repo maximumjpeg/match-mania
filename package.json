@@ -31,7 +31,7 @@
     "start": "webpack --mode=development",
     "build": "webpack --mode=production",
     "dev": "webpack server --open",
-    "serve": "webpack --mode=development && open http://localhost:3000; nodemon ./server/server.js",
+    "serve": "webpack --mode=development && open http://localhost:3000; nodemon ./server/index.js",
     "image": "docker build -t mm-pg-image .",
     "container": "docker secret create pg-pwd ./config.json & docker run --name mm-pg-container --secret pg-pwd -e POSTGRES_PASSWORD_FILE=/run/secrets/my_secret -d -p 5432:5432 mm-pg-image",
     "test": "echo $1"
