@@ -2,8 +2,8 @@
 Japanese study app for Kana, Kanji, vocab and phrases
 
 ### TO-DO:
-rename/recase components in src
-make the gallery view a modular component that just takes in its current japanese study material instead of multiple galleries
+rename/recase components in src\
+gallery view will display whatever cards are passed in 
 
 ### Running the app
 make sure Node 20.11.1+ and Docker are installed on the machine running this app
