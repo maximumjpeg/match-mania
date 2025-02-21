@@ -1,5 +1,5 @@
 # Match Mania
-Japanese study app for Kana, Kanji, vocab and phrases
+Japanese study app for Kana, Kanji, vocab and phrases utilizing Spaced Repitition to enhance learning.
 
 ### TO-DO:
 rename/recase components in src\
